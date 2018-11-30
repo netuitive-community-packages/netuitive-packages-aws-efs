@@ -1,0 +1,53 @@
+{
+    "id" : "netuitive.packages.aws.efs",
+    "version" : "0.1.0",
+    "manifest" : {
+      "name" : "Netuitive Packages AWS Elastic File System (EFS)",
+      "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor performance of the elements collected from the AWS Elastic File System (EFS).",
+      "author" : {
+        "name" : "Netuitive Research",
+        "email" : "research@netuitive.com"
+      },
+      "distro" : {
+        "logo" : "http://assets.app.netuitive.com/pkg/logo/netuitive/banner_logo.png",
+        "download" : "https://github.com/netuitive-community-packages/netuitive-packages-aws-efs/archive/master.zip"
+      },
+      "compatibility" : [ "INFRASTRUCTURE:EFS" ],
+      "tags" : [ ],
+      "checksum" : null
+    },
+    "policies" : [ {
+      "data" : {
+        "file" : "policies/aws.efs.-.policy.name.json",
+        "encoding" : "application/json",
+        "content" : null
+      }
+    }, {
+      "data" : {
+        "file" : "policies/aws.efs.-.policy.name2.json",
+        "encoding" : "application/json",
+        "content" : null
+      }
+    }
+    ],
+    "analyticConfigurations" : [ {
+      "data" : {
+        "file" : "analyticConfigurations/ace-efs.json",
+        "encoding" : "application/json",
+        "content" : null
+      }
+    }, {
+      "data" : {
+        "file" : "analyticConfigurations/computed_metric-efs.json",
+        "encoding" : "application/json",
+        "content" : null
+      }
+    }, {
+      "data" : {
+        "file" : "analyticConfigurations/metric_meta-efs.json",
+        "encoding" : "application/json",
+        "content" : null
+      }
+    } 
+    ]
+  }
