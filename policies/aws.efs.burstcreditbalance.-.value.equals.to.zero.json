@@ -1,0 +1,28 @@
+{
+  "policy": {
+    "actions": [
+      {
+        "category": 3,
+        "type": "event"
+      }
+    ],
+    "conditions": [
+      {
+        "analytic": "actual",
+        "level": 0,
+        "metric": "aws.efs.burstcreditbalance",
+        "operator": "="
+      }
+    ],
+    "deleted": false,
+    "description": "File system has almost reached its limit",
+    "duration": 900,
+    "enabled": true,
+    "name": "IO Percentage Critical",
+    "scope": {
+      "elementTypes": [
+        "SERVER"
+      ]
+    }
+  }
+}

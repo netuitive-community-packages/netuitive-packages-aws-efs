@@ -1,0 +1,60 @@
+{
+  "analyticConfiguration": {
+    "metrics": [
+      {
+        "match": "aws.efs.burstcreditbalance.*",
+        "properties": {
+          "statistic": "MAX",
+          "type": "COUNTER"
+        }
+      },
+      {
+        "match": "aws.efs.clientconnections.*",
+        "properties": {
+          "statistic": "avg",
+          "type": "COUNTER"
+        }
+      },
+      {
+        "match": "aws.efs.datawriteiobytes.*",
+        "properties": {
+          "statistic": "MAX",
+          "type": "COUNTER"
+        }
+      },
+      {
+        "match": "aws.efs.metadataiobytes.*",
+        "properties": {
+          "statistic": "MAX",
+          "type": "COUNTER"
+        }
+      },
+      {
+        "match": "aws.efs.percentiolimit.*",
+        "properties": {
+          "statistic": "MAX",
+          "type": "COUNTER"
+        }
+      },
+      {
+        "match": "aws.efs.permittedthroughput.*",
+        "properties": {
+          "statistic": "MAX",
+          "type": "COUNTER"
+        }
+      },
+      {
+        "match": "aws.efs.totaliobytes.*",
+        "properties": {
+          "statistic": "MAX",
+          "type": "COUNTER"
+        }
+      }
+    ],
+    "name": "Elastic File System",
+    "scope": {
+      "elementType": "EFS"
+    },
+    "type": "METRIC_META"
+  }
+}

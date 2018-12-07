@@ -1,0 +1,28 @@
+{
+  "policy": {
+    "actions": [
+      {
+        "category": 3,
+        "type": "event"
+      }
+    ],
+    "conditions": [
+      {
+        "analytic": "actual",
+        "level": 95,
+        "metric": "aws.efs.percentiolimit",
+        "operator": ">"
+      }
+    ],
+    "deleted": false,
+    "description": "Description: There are no burst credits left. The number of burst credits that a file system has is zero.",
+    "duration": 900,
+    "enabled": true,
+    "name": "Linux ElasticSearch - Cluster Health Degraded to Red",
+    "scope": {
+      "elementTypes": [
+        "SERVER"
+      ]
+    }
+  }
+}

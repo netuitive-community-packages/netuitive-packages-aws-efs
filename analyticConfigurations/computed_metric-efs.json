@@ -1,0 +1,10 @@
+{
+  "analyticConfiguration": {
+    "name": "Elastic File System",
+    "scope": {
+      "elementType": "SERVER",
+      "metricMatches": "^efs\\..*"
+    },
+    "type": "COMPUTED_METRIC"
+  }
+}
