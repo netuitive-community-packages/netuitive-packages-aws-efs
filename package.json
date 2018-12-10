@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "manifest": {
     "name": "Netuitive Packages Elastic File System",
-    "description": "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor performance of the elements collected from the ElasticSearch collector in the Netuitive Agent.",
+    "description": "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor performance of the elements collected from the Elastic File System collector in the Netuitive Agent.",
     "author": {
       "name": "Netuitive Research",
       "email": "research@netuitive.com"
@@ -13,7 +13,7 @@
       "download": "https://github.com/netuitive-community-packages/netuitive-packages-aws-efs/archive/master.zip"
     },
     "compatibility": [
-      "INFRASTRUCTURE:ElasticFileSystem"
+      "AWS:EFS"
     ],
     "tags": [],
     "checksum": null

@@ -2,49 +2,49 @@
   "analyticConfiguration": {
     "metrics": [
       {
-        "match": "aws.efs.burstcreditbalance.*",
+        "match": "aws.efs.burstcreditbalance",
         "properties": {
           "baseline": false,
           "correlation": true
         }
       },
       {
-        "match": "aws.efs.clientconnections.*",
+        "match": "aws.efs.clientconnections",
         "properties": {
           "baseline": false,
           "correlation": true
         }
       },
       {
-        "match": "aws.efs.datawriteiobytes.*",
+        "match": "aws.efs.datawriteiobytes",
         "properties": {
           "baseline": false,
           "correlation": true
         }
       },
       {
-        "match": "aws.efs.metadataiobytes.*",
+        "match": "aws.efs.metadataiobytes",
         "properties": {
           "baseline": false,
           "correlation": true
         }
       },
       {
-        "match": "aws.efs.percentiolimit.*",
+        "match": "aws.efs.percentiolimit",
         "properties": {
           "baseline": false,
           "correlation": false
         }
       },
       {
-        "match": "aws.efs.permittedthroughput.*",
+        "match": "aws.efs.permittedthroughput",
         "properties": {
           "baseline": false,
           "correlation": true
         }
       },
       {
-        "match": "aws.efs.totaliobytes.*",
+        "match": "aws.efs.totaliobytes",
         "properties": {
           "baseline": false,
           "correlation": true

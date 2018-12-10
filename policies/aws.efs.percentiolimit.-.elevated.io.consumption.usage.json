@@ -15,13 +15,13 @@
       }
     ],
     "deleted": false,
-    "description": "Description: There are no burst credits left. The number of burst credits that a file system has is zero.",
+    "description": "File system has almost reached its limit of the General Purpose performance mode. If this metric is at 100% more often than not, consider moving your application to a file system using the Max I/O performance mode",
     "duration": 900,
     "enabled": true,
-    "name": "Linux ElasticSearch - Cluster Health Degraded to Red",
+    "name": "AWS EFS - IO Percentage Critical",
     "scope": {
       "elementTypes": [
-        "SERVER"
+        "EFS"
       ]
     }
   }

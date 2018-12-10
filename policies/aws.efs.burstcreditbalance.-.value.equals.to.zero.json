@@ -15,13 +15,13 @@
       }
     ],
     "deleted": false,
-    "description": "File system has almost reached its limit",
+    "description": "There are no burst credits left. The number of burst credits that a file system has is zero.",
     "duration": 900,
     "enabled": true,
-    "name": "IO Percentage Critical",
+    "name": "AWS EFS - Depleted Burst Credit Balance",
     "scope": {
       "elementTypes": [
-        "SERVER"
+        "EFS"
       ]
     }
   }

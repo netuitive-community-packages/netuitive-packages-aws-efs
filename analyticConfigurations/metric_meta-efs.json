@@ -2,52 +2,48 @@
   "analyticConfiguration": {
     "metrics": [
       {
-        "match": "aws.efs.burstcreditbalance.*",
+        "match": "aws.efs.burstcreditbalance",
         "properties": {
-          "statistic": "MAX",
-          "type": "COUNTER"
+          "statistic": "avg"
         }
       },
       {
-        "match": "aws.efs.clientconnections.*",
+        "match": "aws.efs.clientconnections",
         "properties": {
-          "statistic": "avg",
-          "type": "COUNTER"
+          "statistic": "sum"
         }
       },
       {
-        "match": "aws.efs.datawriteiobytes.*",
+        "match": "aws.efs.datawriteiobytes",
         "properties": {
-          "statistic": "MAX",
-          "type": "COUNTER"
+          "statistic": "sum"
         }
       },
       {
-        "match": "aws.efs.metadataiobytes.*",
+        "match": "aws.efs.metadataiobytes",
         "properties": {
-          "statistic": "MAX",
-          "type": "COUNTER"
+          "statistic": "sum"
         }
       },
       {
-        "match": "aws.efs.percentiolimit.*",
+        "match": "aws.efs.percentiolimit",
         "properties": {
-          "statistic": "MAX",
-          "type": "COUNTER"
+          "tags": {
+            "unit": "percent",
+            "utilization": true
+          }
         }
       },
       {
-        "match": "aws.efs.permittedthroughput.*",
+        "match": "aws.efs.permittedthroughput",
         "properties": {
-          "statistic": "MAX",
-          "type": "COUNTER"
+          "statistic": "avg"
         }
       },
       {
-        "match": "aws.efs.totaliobytes.*",
+        "match": "aws.efs.totaliobytes",
         "properties": {
-          "statistic": "MAX",
-          "type": "COUNTER"
+          "statistic": "sum"
         }
       }
     ],

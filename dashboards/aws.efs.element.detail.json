@@ -3,7 +3,6 @@
     "name": "AWS EFS Element Detail",
     "private": false,
     "properties": {
-      "globalFilter": "false",
       "gridstackContents": "[{\"id\":\"c6711eb7-9b6f-4ddd-a0ff-aba56593db7e\",\"x\":0,\"y\":27,\"width\":6,\"height\":9},{\"id\":\"7d26a7fa-880b-4cec-899e-194bf1810b82\",\"x\":6,\"y\":27,\"width\":6,\"height\":9},{\"id\":\"3d3afbd0-71e0-4bb9-9bee-254cf2b68a84\",\"x\":0,\"y\":0,\"width\":4,\"height\":7},{\"id\":\"ca16330c-2f8b-4bea-aa61-c43172e4111d\",\"x\":4,\"y\":0,\"width\":5,\"height\":10},{\"id\":\"aef35756-0004-4465-a028-f9aad3db7eda\",\"width\":4,\"height\":7,\"x\":0,\"y\":10}]",
       "refreshIntervalSeconds": "300",
       "timeRangeDuration": "3600",
