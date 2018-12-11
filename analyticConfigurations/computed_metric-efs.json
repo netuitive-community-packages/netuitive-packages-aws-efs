@@ -2,7 +2,7 @@
   "analyticConfiguration": {
     "name": "Elastic File System",
     "scope": {
-      "elementType": "SERVER",
+      "elementType": "EFS",
       "metricMatches": "^efs\\..*"
     },
     "type": "COMPUTED_METRIC"
