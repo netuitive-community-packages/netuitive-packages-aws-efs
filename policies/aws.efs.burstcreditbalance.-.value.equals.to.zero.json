@@ -1,0 +1,28 @@
+{
+  "policy": {
+    "actions": [
+      {
+        "category": 3,
+        "type": "event"
+      }
+    ],
+    "conditions": [
+      {
+        "analytic": "actual",
+        "level": 0,
+        "metric": "aws.efs.burstcreditbalance",
+        "operator": "="
+      }
+    ],
+    "deleted": false,
+    "description": "There are no burst credits left. The number of burst credits that a file system has is zero.",
+    "duration": 900,
+    "enabled": true,
+    "name": "AWS EFS - Depleted Burst Credit Balance",
+    "scope": {
+      "elementTypes": [
+        "EFS"
+      ]
+    }
+  }
+}
