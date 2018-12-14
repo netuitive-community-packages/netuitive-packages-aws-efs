@@ -1,0 +1,28 @@
+{
+  "policy": {
+    "actions": [
+      {
+        "category": 3,
+        "type": "event"
+      }
+    ],
+    "conditions": [
+      {
+        "analytic": "actual",
+        "level": 95,
+        "metric": "aws.efs.percentiolimit",
+        "operator": ">"
+      }
+    ],
+    "deleted": false,
+    "description": "File system has almost reached its limit of the General Purpose performance mode. If this metric is at 100% more often than not, consider moving your application to a file system using the Max I/O performance mode",
+    "duration": 900,
+    "enabled": true,
+    "name": "AWS EFS - IO Percentage Critical",
+    "scope": {
+      "elementTypes": [
+        "EFS"
+      ]
+    }
+  }
+}
