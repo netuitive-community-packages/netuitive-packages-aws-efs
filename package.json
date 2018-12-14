@@ -44,13 +44,6 @@
     },
     {
       "data": {
-        "file": "analyticConfigurations/computed_metric-efs.json",
-        "encoding": "application/json",
-        "content": null
-      }
-    },
-    {
-      "data": {
         "file": "analyticConfigurations/metric_meta-efs.json",
         "encoding": "application/json",
         "content": null
